@@ -1,0 +1,30 @@
+* {
+  text-decoration: none !important;
+}
+
+header .header-part {
+  background-color: #F2F2F2;
+}
+
+.containe .liddle-c {
+  width: 40%;
+}
+.containe .liddle-c .image-middle {
+  width: 250px;
+  height: 159px;
+}
+
+footer .up-footer .img-footer {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+footer .up-footer .txt-footer-right span {
+  font-size: 13px;
+}
+footer .up-footer .txt-footer-right a {
+  color: #BABABA;
+}
+footer .up-footer .txt-footer-right a:hover {
+  color: white;
+}
