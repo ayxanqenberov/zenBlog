@@ -5,6 +5,20 @@
 header .header-part {
   background-color: #F2F2F2;
 }
+header .header-part .blog-list {
+  position: relative;
+}
+header .header-part .blog-list:hover .blog-div {
+  display: block;
+}
+header .header-part .blog-list .blog-div {
+  display: none;
+  position: absolute;
+  padding: 10px;
+  background-color: white !important;
+  z-index: 15;
+  width: 200px;
+}
 
 .containe .liddle-c {
   width: 40%;

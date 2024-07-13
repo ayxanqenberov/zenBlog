@@ -4,6 +4,22 @@
 header{
     .header-part{
         background-color: #F2F2F2;
+        .blog-list{
+            position: relative;
+            &:hover{
+                .blog-div{
+                   display: block;
+                }
+            }
+            .blog-div{
+                display: none;
+                position: absolute;
+                padding: 10px;
+                background-color: white !important;
+                z-index: 15;
+                width: 200px;
+            }
+        }
     }
 }
 .containe{
